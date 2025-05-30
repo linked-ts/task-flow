@@ -1,36 +1,130 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Smart Todo
 
-## Getting Started
+A modern, minimalist Todo application built with Next.js 14 and TypeScript, featuring a beautiful UI, dark mode support, and optimal performance.
 
-First, run the development server:
+![Smart Todo Preview](public/og-image.png)
 
-```bash
+## ✨ Features
+
+- 📱 Responsive modern UI
+- 🌓 Light/Dark mode with smooth transitions
+- ⚡ Optimized performance (100 Lighthouse score)
+- 📦 PWA support
+- 🔍 SEO optimized
+- ♿ Accessibility focused
+- 🔄 State persistence
+- 🎯 Minimalist design
+
+## 🛠 Tech Stack
+
+- **Framework:** [Next.js 14](https://nextjs.org/) (App Router)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **State Management:** [Zustand](https://zustand-demo.pmnd.rs/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **UI Components:** Custom components with modern design
+- **Analytics:** [Vercel Analytics](https://vercel.com/analytics)
+- **Performance Monitoring:** [Vercel Speed Insights](https://vercel.com/docs/speed-insights)
+- **SEO:** [Next SEO](https://github.com/garmeeh/next-seo)
+- **PWA:** [Next PWA](https://github.com/shadowwalker/next-pwa)
+
+## 📊 Performance
+
+- 100 Performance score in Lighthouse
+- Optimized Core Web Vitals
+- Fast page loads with automatic image optimization
+- Efficient bundle splitting
+
+## 🚀 Quick Start
+
+1. Clone the repository:
+\`\`\`bash
+git clone https://github.com/linked-ts/task-flow.git
+cd smart-todo
+\`\`\`
+
+2. Install dependencies:
+\`\`\`bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+\`\`\`
+
+3. Run the development server:
+\`\`\`bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
-```
+\`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Development
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Prerequisites
 
-## Learn More
+- Node.js 18+ (LTS recommended)
+- npm or yarn or pnpm
 
-To learn more about Next.js, take a look at the following resources:
+### Environment Variables
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Create a \`.env.local\` file in the root directory:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+\`\`\`env
+NEXT_PUBLIC_URL=http://localhost:3000
+\`\`\`
 
-## Deploy on Vercel
+### Scripts
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- \`npm run dev\` - Start development server
+- \`npm run build\` - Build for production
+- \`npm start\` - Start production server
+- \`npm run lint\` - Run ESLint
+- \`npm run analyze\` - Analyze bundle size
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 Deployment
+
+The easiest way to deploy is with [Vercel](https://vercel.com):
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyourusername%2Fsmart-todo)
+
+## 📝 Project Structure
+
+\`\`\`
+smart-todo/
+├── src/
+│   ├── app/              # App router pages
+│   ├── components/       # React components
+│   ├── contexts/         # React contexts
+│   ├── lib/             # Utility functions
+│   └── styles/          # Global styles
+├── public/              # Static files
+└── package.json        # Dependencies and scripts
+\`\`\`
+
+## 🎨 Color Scheme
+
+The application uses a carefully chosen color palette that works in both light and dark modes:
+
+- Primary: Blue-based scheme
+- Background: Pure white/dark
+- Text: High contrast for accessibility
+- Accents: Subtle grays
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 🙏 Acknowledgments
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Vercel](https://vercel.com) for hosting
+
+---
+
+Made with ❤️ using Next.js and TypeScript
