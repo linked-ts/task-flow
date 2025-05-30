@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-    siteUrl: 'https://smart-todo.vercel.app',
+    siteUrl: 'https://task-flow-lilac.vercel.app/',
     generateRobotsTxt: true,
     robotsTxtOptions: {
       policies: [
